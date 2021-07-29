@@ -1,0 +1,11 @@
+To see the application work, just dump the CEF release x64 libs/dlls/bins
+from 
+https://cef-builds.spotifycdn.com/cef_binary_87.1.12%2Bg03f9336%2Bchromium-87.0.4280.88_windows64.tar.bz2
+
+into here.
+
+
+This is from 12/08/2020 - 87.1.12+g03f9336+chromium-87.0.4280.88 / Chromium 87.0.4280.88
+
+libcef_dll_wrapper.lib is already included, it should be identical to buliding from the sourec corresponding to
+the version listed above.

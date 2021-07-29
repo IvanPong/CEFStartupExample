@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BrowserHandler.cpp" />
+    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="EasyBMP.cpp">
+      <Filter>BMPs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrowserHandler.h" />
+    <ClInclude Include="EasyBMP.h">
+      <Filter>BMPs</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_BMP.h">
+      <Filter>BMPs</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_DataStructures.h">
+      <Filter>BMPs</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_VariousBMPutilities.h">
+      <Filter>BMPs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BMPs">
+      <UniqueIdentifier>{0d88a5d5-158b-490e-b018-e4f9ddef8d6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
